@@ -1,7 +1,8 @@
 {
     "name": "roofikk/avesta-bundle",
     "description": "Avesta bundle",
-    "type": "project",
+    "version": "0.1.0",
+    "type": "symfony-bundle",
     "license": "proprietary",
     "minimum-stability": "dev",
     "prefer-stable": true,
