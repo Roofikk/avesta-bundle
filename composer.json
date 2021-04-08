@@ -31,12 +31,12 @@
     },
     "autoload": {
         "psr-4": {
-            "roofikk\\avesta-bundle\\": "src"
+            "roofikk\\AvestaBundle\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "roofikk\\avesta-bundle\\Tests\\": "tests/"
+            "roofikk\\AvestaBundle\\Tests\\": "tests/"
         }
     },
     "replace": {
