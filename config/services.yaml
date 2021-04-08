@@ -7,16 +7,10 @@ services:
         autoconfigure: true
         public: false
 
-    roofikk\AvestaBundle\ApiClient\:
-        resource: '../../ApiClient/*'
-
     _instanceof:
         roofikk\AvestaBundle\Contracts\ApiClientInterface:
             tags: [ 'roofikk.avesta.client' ]
 
     roofikk\AvestaBundle\Manager\AvestaClientManager:
         arguments:
-            $clients: !tagged_iterator roofikk.avesta.client
-            $logger: '@logger'
-            $throw: true
-
+            $testVar: 'Hello from yaml'
