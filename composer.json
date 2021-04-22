@@ -1,6 +1,6 @@
 {
     "name": "roofikk/avesta-bundle",
-    "description": "Avesta bundle",
+    "description": "AvestaBundle",
     "version": "0.1.0",
     "type": "symfony-bundle",
     "license": "proprietary",
