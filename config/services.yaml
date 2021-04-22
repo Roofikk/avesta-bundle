@@ -10,3 +10,7 @@ services:
 #    _instanceof:
 #        roofikk\AvestaBundle\Contracts\ApiClientInterface:
 #            tags: [ 'roofikk.avesta.client' ]
+
+    roofikk\AvestaBundle\Manager\AvestaClientManager:
+        arguments:
+            $testVar: 'Hello from yaml'
